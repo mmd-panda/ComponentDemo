@@ -1,0 +1,12 @@
+apply from: "../common.gradle"
+
+android {
+    defaultConfig {
+        if (rootProject.ext.android.isApplication) {
+            applicationId "com.zt.cart"
+        }
+    }
+}
+
+dependencies {
+}

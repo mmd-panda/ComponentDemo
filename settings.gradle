@@ -1,2 +1,4 @@
+include ':cart'
+include ':member'
 include ':app'
 rootProject.name = "ComponentDemo"
