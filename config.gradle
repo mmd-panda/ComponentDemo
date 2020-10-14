@@ -1,6 +1,6 @@
 ext {
     android = [
             // true：所有组件均为application；false：所有组件均为library
-            isApplication: false
+            isApplication: true
     ]
 }
